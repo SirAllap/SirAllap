@@ -1,34 +1,44 @@
-# Hi there! 👋 I'm David!
+Hi ![](https://user-images.githubusercontent.com/18350557/176309783-0785949b-9127-417c-8b55-ab5a4333674e.gif)My name is David Pallares
+======================================================================================================================================
 
-Welcome to my GitHub profile! Passionate developer, fueled by a love for coding and problem-solving. Thrilled to contribute to diverse projects, constantly exploring emerging technologies, and eager to collaborate with fellow developers to create innovative solutions.
+Full-stack Web Developer
+------------------------
 
-## 🔭 What I'm currently working on
+Welcome to my GitHub profile! I'm a passionate developer, fueled by a love for coding and problem-solving. Thrilled to contribute to diverse projects, constantly exploring emerging technologies, and eager to collaborate with fellow developers to create innovative solutions.
 
-I'm currently focused on learning React and TypeScript.
+* 🌍  I'm based in Spain, Canary Island 😎
+* ✉️  You can contact me at [david.pr.developer@gmail.com](mailto:david.pr.developer@gmail.com)
+* 🧠  I'm learning React and TypeScript.
 
-## 🌱 What I'm currently learning
+<a href="https://www.github.com/SirAllap" target="_blank" rel="noreferrer"><img
+src="https://img.shields.io/github/followers/SirAllap?logo=github&style=for-the-badge&color=0891b2&labelColor=1c1917" /></a>
 
-I'm always eager to learn new things and expand my knowledge. Currently, I'm learning more about Full-Stack Web Development. I'm also interested in exploring Python to broaden my horizons.
+### Skills
 
-## 💼 My professional experience
 
-Currently employed as an IT Talent Acquisition Specialist at Scalable Path, I am gaining valuable experience collaborating with teams in an asynchronous model. Actively pursuing new opportunities to apply my skills and make meaningful contributions to exciting projects.
+<p align="left">
+<a href="https://www.typescriptlang.org/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/typescript-colored.svg" width="36" height="36" alt="TypeScript" /></a>
+<a href="https://www.php.net/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/php-colored.svg" width="36" height="36" alt="PHP" /></a>
+<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/javascript-colored.svg" width="36" height="36" alt="JavaScript" /></a>
+<a href="https://git-scm.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/git-colored.svg" width="36" height="36" alt="Git" /></a>
+<a href="https://developer.mozilla.org/en-US/docs/Glossary/HTML5" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/html5-colored.svg" width="36" height="36" alt="HTML5" /></a>
+<a href="https://reactjs.org/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/react-colored.svg" width="36" height="36" alt="React" /></a>
+<a href="https://vuejs.org/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/vuejs-colored.svg" width="36" height="36" alt="Vue" /></a>
+<a href="https://nuxtjs.org/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/nuxtjs-colored.svg" width="36" height="36" alt="Nuxtjs" /></a>
+<a href="https://www.w3.org/TR/CSS/#css" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/css3-colored.svg" width="36" height="36" alt="CSS3" /></a>
+<a href="https://nodejs.org/en/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/nodejs-colored.svg" width="36" height="36" alt="NodeJS" /></a>
+<a href="https://expressjs.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/express-colored.svg" width="36" height="36" alt="Express" /></a>
+<a href="https://www.mongodb.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/mongodb-colored.svg" width="36" height="36" alt="MongoDB" /></a>
+<a href="https://www.figma.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/figma-colored.svg" width="36" height="36" alt="Figma" /></a>
+</p>
 
-## 🛠️ Skills and tools
 
-- Programming languages: JavaScript, Python
-- Frameworks and libraries: Vue.js, Node.js, Nuxt.js, Vuetify
-- Tools and technologies: HTML, CSS, Axios, ExpressJS, npm, Postman, Heroku, NEtlify, Github Pages, Figma, Asana, Balsamiq
-- Version control: Git
-- Databases: MongoDB
+### Socials
 
-## 📫 How to reach me
+<p align="left"> <a href="https://www.github.com/SirAllap" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github.svg" width="32" height="32" /></a> <a href="https://www.linkedin.com/in/davidpallaresrobaina/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin.svg" width="32" height="32" /></a></p>
 
-Feel free to connect with me on different platforms:
+### Badges
 
-- LinkedIn: https://www.linkedin.com/in/davidpallaresrobaina/
-- Email: david.pr.developer@gmail.com
+<b>My GitHub Stats</b>
 
-I'm always open to interesting conversations, collaborations, and new opportunities.
-
-Thanks for visiting my profile! Feel free to explore my repositories and projects. Don't forget to leave a star ⭐ if you find anything interesting!
+<a href="http://www.github.com/SirAllap"><img src="https://github-readme-stats.vercel.app/api?username=SirAllap&show_icons=true&hide=&count_private=true&title_color=0891b2&text_color=ffffff&icon_color=0891b2&bg_color=1c1917&hide_border=true&show_icons=true" alt="SirAllap's GitHub stats" /></a>
