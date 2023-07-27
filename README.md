@@ -37,6 +37,9 @@ src="https://img.shields.io/github/followers/SirAllap?logo=github&style=for-the-
 
 <p align="left"> <a href="https://www.github.com/SirAllap" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github.svg" width="32" height="32" /></a> <a href="https://www.linkedin.com/in/davidpallaresrobaina/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin.svg" width="32" height="32" /></a></p>
 
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=sirallap&theme=dark&hide_border=false&include_all_commits=true&count_private=false&layout=compact)
+
+
 ### Badges
 
 <b>My GitHub Stats</b>
