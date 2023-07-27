@@ -37,11 +37,12 @@ src="https://img.shields.io/github/followers/SirAllap?logo=github&style=for-the-
 
 <p align="left"> <a href="https://www.github.com/SirAllap" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github.svg" width="32" height="32" /></a> <a href="https://www.linkedin.com/in/davidpallaresrobaina/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin.svg" width="32" height="32" /></a></p>
 
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=sirallap&theme=dark&hide_border=false&include_all_commits=true&count_private=false&layout=compact)
 
 
 ### Badges
 
 <b>My GitHub Stats</b>
 
-<a href="http://www.github.com/SirAllap"><img src="https://github-readme-stats.vercel.app/api?username=SirAllap&show_icons=true&hide=&count_private=true&title_color=0891b2&text_color=ffffff&icon_color=0891b2&bg_color=1c1917&hide_border=true&show_icons=true" alt="SirAllap's GitHub stats" /></a>
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=sirallap&theme=dark&hide_border=false&include_all_commits=true&count_private=false&layout=compact)
+
+![](https://github-readme-stats.vercel.app/api?username=sirallap&theme=dark&hide_border=false&include_all_commits=true&count_private=false)<br/>
