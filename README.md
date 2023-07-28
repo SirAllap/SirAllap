@@ -4,11 +4,12 @@ Hi ![](https://user-images.githubusercontent.com/18350557/176309783-0785949b-912
 Full-stack Web Developer
 ------------------------
 
+Full-stack Web Developer based in Spain, Canary Islands 🌴
+
 Welcome to my GitHub profile! I'm a passionate developer, fueled by a love for coding and problem-solving. Thrilled to contribute to diverse projects, constantly exploring emerging technologies, and eager to collaborate with fellow developers to create innovative solutions.
 
-* 🌍  I'm based in Spain, Canary Island 😎
-* ✉️  You can contact me at [david.pr.developer@gmail.com](mailto:david.pr.developer@gmail.com)
-* 🧠  I'm learning React and TypeScript.
+* ✉️ You can reach me at [david.pr.developer@gmail.com](mailto:david.pr.developer@gmail.com)
+* 🧠 I'm currently learning React and TypeScript.
 
 <a href="https://www.github.com/SirAllap" target="_blank" rel="noreferrer"><img
 src="https://img.shields.io/github/followers/SirAllap?logo=github&style=for-the-badge&color=0891b2&labelColor=1c1917" /></a>
