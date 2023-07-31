@@ -6,7 +6,9 @@ Full-stack Web Developer
 
 Full-stack Web Developer based in Spain, Canary Islands 🌴
 
-Welcome to my GitHub profile! I'm a passionate developer, fueled by a love for coding and problem-solving. Thrilled to contribute to diverse projects, constantly exploring emerging technologies, and eager to collaborate with fellow developers to create innovative solutions.
+Welcome to my GitHub profile! 
+
+I'm a passionate developer, fueled by a love for coding and problem-solving. Thrilled to contribute to diverse projects, constantly exploring emerging technologies, and eager to collaborate with fellow developers to create innovative solutions.
 
 * ✉️ You can reach me at [david.pr.developer@gmail.com](mailto:david.pr.developer@gmail.com)
 * 🧠 I'm currently learning React and TypeScript.
