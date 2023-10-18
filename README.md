@@ -1,21 +1,17 @@
-Hi ![](https://user-images.githubusercontent.com/18350557/176309783-0785949b-9127-417c-8b55-ab5a4333674e.gif)My name is David Pallarés
-======================================================================================================================================
+<div align="center">
+<h1>Hi, my name is David Pallarés</h1>
 
-Full-Stack Web Developer
-------------------------
+<h3>Welcome to my GitHub profile! </h2>
+</div>
 
+<img align="right" height="200" src="https://media.giphy.com/media/xFkgeu7dhfgqqxJqmj/giphy.gif"  />
 Full-stack Web Developer based in Spain, Canary Islands 🌴
 
-Welcome to my GitHub profile! 
+###
 
 I'm a passionate developer, fueled by a love for coding and problem-solving. Thrilled to contribute to diverse projects, constantly exploring emerging technologies, and eager to collaborate with fellow developers to create innovative solutions.
 
-* ✉️ You can reach me at [david.pr.developer@gmail.com](mailto:david.pr.developer@gmail.com)
-* 🧠 I'm currently learning React and TypeScript.
-
-<a href="https://www.github.com/SirAllap" target="_blank" rel="noreferrer"><img
-src="https://img.shields.io/github/followers/SirAllap?logo=github&style=for-the-badge&color=0891b2&labelColor=1c1917" /></a>
-
+###
 ### Skills
 
 
@@ -35,17 +31,13 @@ src="https://img.shields.io/github/followers/SirAllap?logo=github&style=for-the-
 <a href="https://www.figma.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/figma-colored.svg" width="36" height="36" alt="Figma" /></a>
 </p>
 
-
 ### Socials
-
 <p align="left"> <a href="https://www.github.com/SirAllap" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github.svg" width="32" height="32" /></a> <a href="https://www.linkedin.com/in/davidpallaresrobaina/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin.svg" width="32" height="32" /></a></p>
 
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=sirallap&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dracula&locale=en&hide_border=false" height="150" alt="stats graph"  />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=sirallap&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=false" height="150" alt="languages graph"  />
+</div>
 
-
-### Badges
-
-<b>My GitHub Stats</b>
-
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=sirallap&theme=dark&hide_border=false&include_all_commits=true&count_private=false&layout=compact)
-
-![](https://github-readme-stats.vercel.app/api?username=sirallap&theme=dark&hide_border=false&include_all_commits=true&count_private=false)<br/>
+###
+<br clear="both">
