@@ -8,14 +8,10 @@
 Full-stack Web Developer based in Spain, Canary Islands 🌴
 
 ###
-
 I'm a passionate developer, fueled by a love for coding and problem-solving. Thrilled to contribute to diverse projects, constantly exploring emerging technologies, and eager to collaborate with fellow developers to create innovative solutions.
 </div>
 
 ### Skills
-
-
-
 <div style="display: flex; align-items: flex-start;">
   <img src="https://techstack-generator.vercel.app/js-icon.svg" alt="icon" width="65" height="65" />
   <img src="https://techstack-generator.vercel.app/ts-icon.svg" alt="icon" width="65" height="65" />
@@ -30,6 +26,7 @@ I'm a passionate developer, fueled by a love for coding and problem-solving. Thr
   <img src="https://techstack-generator.vercel.app/mysql-icon.svg" alt="icon" width="65" height="65" />
   <img src="https://techstack-generator.vercel.app/eslint-icon.svg" alt="icon" width="65" height="65" />
   <img src="https://techstack-generator.vercel.app/testinglibrary-icon.svg" alt="icon" width="65" height="65" />
+  <img src="https://github.com/SirAllap/SirAllap/assets/53468881/f556c3c9-e4cf-4e1a-925a-ea779b6fddda" alt="icon" width="65" height="65" />
 </div>
 
 ### Socials
@@ -42,9 +39,7 @@ I'm a passionate developer, fueled by a love for coding and problem-solving. Thr
 
 ###
 <br clear="both">
-
 <h1 align="center">THANKS FOR VISITING MY PROFILE</h1>
-
 <p align="center">
   <img src="https://github.com/SirAllap/SirAllap/assets/53468881/755625c5-b6da-4968-896d-695ca1074290" alt="Image with removed background">
 </p>
