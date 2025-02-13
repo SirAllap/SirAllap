@@ -15,19 +15,21 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0
+          fetch-depth: 0  # Required for contribution data
 
       - name: Generate Snake
         uses: Platane/snk@v3
         with:
           github_user_name: SirAllap
           svg_out_path: assets/github-contribution-snake.svg
-          svg_out_path_dark: assets/github-contribution-snake-dark.svg
+          # For dark mode version:
+          # gif_out_path: assets/github-contribution-snake.gif 
 
       - name: Commit and push
+        if: success()
         run: |
           git config user.name "GitHub Actions"
           git config user.email "actions@github.com"
           git add assets/
-          git commit -m "Update contribution snake"
+          git commit -m "Update contribution snake" || echo "No changes to commit"
           git push
