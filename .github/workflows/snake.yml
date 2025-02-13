@@ -1,9 +1,9 @@
 name: Generate Contribution Snake
 
 on:
+  workflow_dispatch:
   schedule:
     - cron: "0 0 * * *"
-  workflow_dispatch:
 
 jobs:
   build:
@@ -12,24 +12,23 @@ jobs:
       contents: write
 
     steps:
-      - name: Checkout repository
+      - name: Checkout code
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0  # Required for contribution data
+          fetch-depth: 0  # Critical for contribution data
 
       - name: Generate Snake
         uses: Platane/snk@v3
         with:
           github_user_name: SirAllap
-          svg_out_path: assets/github-contribution-snake.svg
-          # For dark mode version:
-          # gif_out_path: assets/github-contribution-snake.gif 
+          outputs: |
+            assets/snake.svg
+            assets/snake-dark.svg?palette=github-dark
 
       - name: Commit and push
-        if: success()
         run: |
-          git config user.name "GitHub Actions"
-          git config user.email "actions@github.com"
+          git config user.name "github-actions"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add assets/
-          git commit -m "Update contribution snake" || echo "No changes to commit"
+          git commit -m "Update snake" || echo "No changes to commit"
           git push
