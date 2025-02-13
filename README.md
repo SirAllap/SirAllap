@@ -1,7 +1,9 @@
 <div align="center">
   <img src="https://user-images.githubusercontent.com/74038190/225813708-98b745f2-7d22-48cf-9150-083f1b00d6c9.gif" width="700" alt="Coding Animation">
   
-  <h1>🔥 Full-Stack Architect | Cloud-Native Specialist</h1>
+  <h1>🔥 Full-Stack Developer | DevOps Enthusiast</h1>
+  
+  <h3 align="center">With 2+ years developing scalable solutions</h3>
   
   <a href="https://visitorbadge.io/status?path=https%3A%2F%2Fgithub.com%2FSirAllap">
     <img src="https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2FSirAllap&label=Visitors&countColor=%2337d67a" alt="Visitor Count">
@@ -10,10 +12,34 @@
 
 ---
 
-## 🚀 Core Expertise
+## 🛠 Technical Arsenal
 
+### 🔧 DevOps & Infrastructure
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=py,django,docker,aws,nginx,postgres,react,ts,git,github,linux" alt="Technology Icons">
+  <img src="https://skillicons.dev/icons?i=linux,docker,aws,nginx,githubactions" alt="DevOps" />
+  <br/>
+  <img src="https://skillicons.dev/icons?i=neovim" alt="Vim">
+</div>
+
+### 🗄️ Backend Development
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=py,django,postgres,mysql" alt="Backend">
+  <br/>
+  <img src="https://skillicons.dev/icons?i=mongodb" alt="Python Frameworks">
+</div>
+
+### 💻 Frontend & Full-Stack
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=react,ts,js,html,css,tailwind" alt="Frontend">
+  <br/>
+  <img src="https://skillicons.dev/icons?i=nodejs,nextjs" alt="JS Ecosystem">
+</div>
+
+### ⚙️ Development Tools
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=vscode,git,postman,github" alt="Tools">
+  <br/>
+  <img src="https://skillicons.dev/icons?i=bash" alt="Shell">
 </div>
 
 ---
