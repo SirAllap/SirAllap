@@ -32,6 +32,7 @@
 
 <div align="center">
   <img src="https://raw.githubusercontent.com/SirAllap/SirAllap/main/assets/github-contribution-grid-snake.svg" alt="Contribution snake">
+  
 </div>
 ---
 
