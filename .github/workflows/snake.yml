@@ -12,23 +12,24 @@ jobs:
   generate:
     runs-on: ubuntu-latest
     permissions:
-      contents: write
+      contents: write  # Required to push changes
     
     steps:
-      - uses: actions/checkout@v4
-    
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
       - name: Generate Snake
-        uses: Platane/snk@master
+        uses: Platane/snk@v2
         with:
           github_user_name: SirAllap
-          outputs: |
-            dist/github-snake.svg
-            dist/github-snake-dark.svg?palette=github-dark
-    
-      - name: Commit and Push
+          svg_out_path: assets/github-contribution-grid-snake.svg
+          # For dark mode version add:
+          # svg_out_path_dark: assets/github-contribution-grid-snake-dark.svg
+
+      - name: Commit and push
         run: |
-          git config --global user.name "GitHub Actions"
-          git config --global user.email "actions@github.com"
-          git add -A
+          git config user.name "GitHub Actions"
+          git config user.email "actions@github.com"
+          git add assets/
           git commit -m "Update contribution snake"
           git push
