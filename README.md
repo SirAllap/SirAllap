@@ -1,66 +1,58 @@
 <div align="center">
-<img align="center" src="https://user-images.githubusercontent.com/74038190/225813708-98b745f2-7d22-48cf-9150-083f1b00d6c9.gif" max-width="700" />
-<br/>
-<br/>
-
-###
-<h3 align="justify">
-  I'm a passionate developer, fueled by a love for coding and problem-solving. Thrilled to contribute to diverse projects, constantly exploring emerging technologies, and eager to collaborate with fellow developers to create innovative solutions.
-</h3>
-</div>
-
-<br/>
-
-<div align="center">
-  <h1>
-    Skills  
-  </h1>
-</div>
+  <img src="https://user-images.githubusercontent.com/74038190/225813708-98b745f2-7d22-48cf-9150-083f1b00d6c9.gif" width="700" alt="Coding Animation">
   
-<div align="center">
-  <img src="https://techstack-generator.vercel.app/js-icon.svg" alt="icon" width="65" height="65" />
-  <img src="https://techstack-generator.vercel.app/ts-icon.svg" alt="icon" width="65" height="65" />
-  <img src="https://techstack-generator.vercel.app/react-icon.svg" alt="icon" width="65" height="65" />
-  <img src="https://techstack-generator.vercel.app/redux-icon.svg" alt="icon" width="65" height="65" />
-  <img src="https://techstack-generator.vercel.app/sass-icon.svg" alt="icon" width="65" height="65" />
-  <img src="https://techstack-generator.vercel.app/prettier-icon.svg" alt="icon" width="65" height="65" />
-  <img src="https://techstack-generator.vercel.app/jest-icon.svg" alt="icon" width="65" height="65" />
-</div>
-<div align="center">
-  <img src="https://techstack-generator.vercel.app/restapi-icon.svg" alt="icon" width="65" height="65" />
-  <img src="https://techstack-generator.vercel.app/aws-icon.svg" alt="icon" width="65" height="65" />
-  <img src="https://techstack-generator.vercel.app/docker-icon.svg" alt="icon" width="65" height="65" />
-  <img src="https://techstack-generator.vercel.app/mysql-icon.svg" alt="icon" width="65" height="65" />
-  <img src="https://techstack-generator.vercel.app/eslint-icon.svg" alt="icon" width="65" height="65" />
-  <img src="https://techstack-generator.vercel.app/testinglibrary-icon.svg" alt="icon" width="65" height="65" />
-  <img src="https://github.com/SirAllap/SirAllap/assets/53468881/f556c3c9-e4cf-4e1a-925a-ea779b6fddda" alt="icon" width="65" height="65" />
+  <h1>🔥 Full-Stack Architect | Cloud-Native Specialist</h1>
+  
+  <a href="https://visitorbadge.io/status?path=https%3A%2F%2Fgithub.com%2FSirAllap">
+    <img src="https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2FSirAllap&label=Visitors&countColor=%2337d67a" alt="Visitor Count">
+  </a>
 </div>
 
-<br/>
+---
+
+## 🚀 Core Expertise
 
 <div align="center">
-  <h1>
-    Socials
-  </h1>
-</div>
-<div align="center">
-  <a href="https://www.github.com/SirAllap" target="_blank" rel="noreferrer"><img src="https://techstack-generator.vercel.app/github-icon.svg" alt="icon" width="52" height="42" /></a> 
-  <a href="https://www.linkedin.com/in/davidpallaresrobaina/" target="_blank" rel="noreferrer"><img src="https://user-images.githubusercontent.com/74038190/235294012-0a55e343-37ad-4b0f-924f-c8431d9d2483.gif" width="42"></a>
-</div>
-<br/>
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=sirallap&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=false" height="150" alt="languages graph"  />
-</div>
-<br/>
-<div align="center">
-  <img src="https://www.codewars.com/users/SirAllap/badges/large" alt="icon" width="400" />
+  <img src="https://skillicons.dev/icons?i=py,django,docker,aws,nginx,postgres,react,ts,git,github,linux" alt="Technology Icons">
 </div>
 
-###
-<br clear="both">
-<h1 align="center">THANKS FOR VISITING MY PROFILE</h1>
-<p align="center">
-  <img src="https://github.com/SirAllap/SirAllap/assets/53468881/755625c5-b6da-4968-896d-695ca1074290" alt="Image with removed background">
-</p>
+---
 
+## 📈 GitHub Analytics
+
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=SirAllap&show_icons=true&theme=dark&include_all_commits=true&count_private=true" alt="GitHub Stats">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=SirAllap&layout=compact&theme=dark" alt="Top Languages">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=SirAllap&theme=react-dark&hide_border=true&area=true" alt="Activity Graph">
+</div>
+
+---
+
+## 🐍 Contribution Graph
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/SirAllap/SirAllap/output/github-contribution-grid-snake.svg" alt="Contribution Graph Snake">
+</div>
+
+---
+
+## 📫 Let's Connect
+
+<div align="center">
+  <a href="https://www.linkedin.com/in/davidpallaresrobaina/">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
+  </a>
+  <a href="https://github.com/SirAllap">
+    <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
+  </a>
+  <a href="https://www.codewars.com/users/SirAllap">
+    <img src="https://img.shields.io/badge/Codewars-B1361E?style=for-the-badge&logo=codewars&logoColor=white" alt="Codewars">
+  </a>
+</div>
+
+---
+
+<div align="center">
+  <img src="https://github.com/SirAllap/SirAllap/assets/53468881/755625c5-b6da-4968-896d-695ca1074290" width="300" alt="Innovation Graphic">
+  <h3>🚀 Always Building Something New</h3>
+</div>
