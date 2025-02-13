@@ -31,14 +31,7 @@
 ## 🐍 Contribution Graph
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/SirAllap/SirAllap/main/dist/github-snake.svg" alt="Contribution snake">
-  
-  <!-- Dark mode version -->
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/SirAllap/SirAllap/main/dist/github-snake-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/SirAllap/SirAllap/main/dist/github-snake.svg">
-    <img alt="Contribution snake" src="https://raw.githubusercontent.com/SirAllap/SirAllap/main/dist/github-snake.svg">
-  </picture>
+  <img src="https://raw.githubusercontent.com/SirAllap/SirAllap/main/assets/github-contribution-grid-snake.svg" alt="Contribution snake">
 </div>
 ---
 
