@@ -31,8 +31,10 @@
 ## 🐍 Contribution Graph
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/SirAllap/SirAllap/main/assets/github-contribution-grid-snake.svg" alt="Contribution snake">
-  
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/SirAllap/SirAllap/main/assets/snake-dark.svg">
+    <img alt="Contribution Snake" src="https://raw.githubusercontent.com/SirAllap/SirAllap/main/assets/snake.svg">
+  </picture>
 </div>
 ---
 
