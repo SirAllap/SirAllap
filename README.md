@@ -44,16 +44,6 @@
 
 ---
 
-## 📈 GitHub Analytics
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=SirAllap&show_icons=true&theme=dark&include_all_commits=true&count_private=true" alt="GitHub Stats">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=SirAllap&layout=compact&theme=dark" alt="Top Languages">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=SirAllap&theme=react-dark&hide_border=true&area=true" alt="Activity Graph">
-</div>
-
----
-
 ## 🐍 Contribution Graph
 
 <div align="center">
