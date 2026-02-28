@@ -78,9 +78,6 @@ I care about:
   <a href="https://github.com/SirAllap">
     <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white">
   </a>
-  <a href="https://www.codewars.com/users/SirAllap">
-    <img src="https://img.shields.io/badge/Codewars-B1361E?style=for-the-badge&logo=codewars&logoColor=white">
-  </a>
 </div>
 
 ---
