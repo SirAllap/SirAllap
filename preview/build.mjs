@@ -111,10 +111,10 @@ const VARIANTS = [
   },
   {
     id: 'current',
-    tab: 'Actual',
-    kicker: 'Lo que hay hoy',
-    file: path.join(ROOT, 'README.md'),
-    lead: 'Tu README en producción ahora mismo, renderizado aquí para comparar de verdad.',
+    tab: 'Antes',
+    kicker: 'El anterior',
+    file: path.join(HERE, 'variants/previous.md'),
+    lead: 'El README que tenías antes de aplicar Signature. Se guarda aquí para poder comparar.',
     notes: [
       ['85 líneas, 6 reglas horizontales, 22 iconos, 0 proyectos',
        'Un perfil que enumera tecnologías en vez de enseñar trabajo se lee como alguien que está empezando. Tú llevas 4 años y tienes una herramienta con 299 estrellas.'],
@@ -123,7 +123,7 @@ const VARIANTS = [
       ['Los GIFs son de la lista de Anmol-Baranwal',
        'El de arriba está en miles de perfiles. Un hero propio cuesta lo mismo y no lo tiene nadie.'],
       ['<code>assets/file.css</code> está vacío',
-       'Archivo de 0 bytes en el repo. Lo dejo sin tocar, pero bórralo.'],
+       'Archivo de 0 bytes en el repo, sin tocar. Bórralo cuando quieras.'],
     ],
   },
 ];
@@ -142,7 +142,7 @@ const panels = VARIANTS.map((v) => `
     ${v.notes.map(([h, b]) => `<div class="note"><h4>${h}</h4><p>${b}</p></div>`).join('')}
   </aside>
   <p class="foot">${v.id === 'current'
-    ? 'Este es el README que hay en <code>main</code> ahora mismo. No lo he tocado.'
+    ? 'Sustituido por Signature. Si quieres volver: <code>cp preview/variants/previous.md README.md</code>.'
     : `Para dejarlo asi en el perfil: <code>cp preview/variants/${v.id}.md README.md</code>` +
       ' — el hero ya esta en <code>assets/</code>, y se regenera con' +
       ' <code>python3 scripts/build_hero.py</code>.'}</p>
