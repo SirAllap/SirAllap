@@ -78,8 +78,12 @@ const VARIANTS = [
     file: path.join(HERE, 'variants/signature.md'),
     lead: 'Un solo golpe visual arriba —hecho a medida, no de stock— y debajo, trabajo real.',
     notes: [
+      ['Tu logo, ahora en vector',
+       'Tu <code>dpr_dark.png</code> era un PNG de 318×266: borroso al escalar, sin versión clara, imposible de animar. Vectorizado con potrace queda nítido a cualquier tamaño y usa <code>currentColor</code>, así que se tiñe solo con el tema.'],
+      ['Misma identidad que serallap.com',
+       'El hero va en Tokyo Night —tu paleta real— en vez del teal que me inventé: <code>#bb9af7</code> en oscuro y <code>#8b5cf6</code> (de tu propia lista ACCENTS) en claro, que <code>#bb9af7</code> no aguanta sobre blanco.'],
       ['Hero propio, no un GIF de catálogo',
-       'SVG de 5 KB hecho a mano, alojado en tu repo. Tres animaciones CSS (tecleo, cursor, lanes de telemetría), versión clara y oscura. Cero servicios de terceros, cero latencia, nadie más lo tiene.'],
+       'SVG hecho a mano, alojado en tu repo: logo + nombre arriba, tecleo con cursor abajo y lanes de telemetría a la derecha. Tres animaciones CSS, cero servicios de terceros, nadie más lo tiene.'],
       ['agentglass abre la sección de trabajo',
        'Tienes 299 estrellas en una herramienta de observabilidad de agentes IA y el perfil no la menciona. Era literalmente lo mejor que tienes, invisible.'],
       ['Los iconos pasan de 4 bloques a 1 fila',

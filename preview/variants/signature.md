@@ -1,6 +1,6 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/SirAllap/SirAllap/main/assets/hero-dark.svg">
-  <img alt="David Pallarés — building developer tools" src="https://raw.githubusercontent.com/SirAllap/SirAllap/main/assets/hero-light.svg" width="100%">
+  <img alt="DPR — David Pallarés, building developer tools" src="https://raw.githubusercontent.com/SirAllap/SirAllap/main/assets/hero-light.svg" width="100%">
 </picture>
 
 Backend engineer at [Smith.ai](https://smith.ai). Python, Django, Docker and Postgres in

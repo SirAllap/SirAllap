@@ -8,11 +8,13 @@ al servir el SVG via raw.githubusercontent.com).
 
   python3 scripts/build_hero.py
 """
+import re
 from pathlib import Path
 
 W, H = 880, 210
 
 # --- texto -------------------------------------------------------------
+SHOW_NAME = True     # False: solo el monograma, sin nombre al lado
 NAME = "David Pallarés"
 PROMPT = "~ $"
 PHRASES = [
@@ -20,8 +22,14 @@ PHRASES = [
     "watching AI agents so you don't have to",
     "backend by trade, tooling by habit",
 ]
-META = "SEVILLA, ES · SMITH.AI · SERALLAP.COM"
+META = "DAVID PALLARÉS ROBAINA · SEVILLA, ES · SMITH.AI · SERALLAP.COM"
 HANDLE = "@SirAllap"
+
+# --- monograma DPR (scripts/trace_logo.py) ----------------------------
+MARK_SRC = "logo.svg"   # o "logo-negative.svg" para la version en negativo
+MARK_H = 78          # altura en unidades del viewBox
+MARK_X, MARK_Y = 0, 8
+NAME_X = 118         # el nombre arranca despues del monograma
 
 # --- metrica -----------------------------------------------------------
 MONO_SIZE = 18
@@ -42,19 +50,42 @@ LANES = [
     (172, 5.4, 0.70),
 ]
 
+def mark_svg() -> tuple[str, str]:
+    """Incrusta el monograma escalado. Devuelve (css, elementos).
+
+    Un <img> no puede referenciar otro SVG, asi que el monograma se inyecta
+    aqui: se reescala por transform y su CSS se concatena al del hero.
+    """
+    src = (Path(__file__).resolve().parent.parent / "assets" / MARK_SRC)
+    if not src.exists():
+        return "", ""
+    doc = src.read_text(encoding="utf-8")
+    vb = re.search(r'viewBox="0 0 ([\d.]+) ([\d.]+)"', doc)
+    css = re.search(r"<style>(.*?)</style>", doc, re.S)
+    paths = re.findall(r"<path[^>]*/>", doc)
+    k = MARK_H / float(vb.group(2))
+    g = (f'<g class="mark" transform="translate({MARK_X},{MARK_Y}) '
+         f'scale({k:.4f})">{"".join(paths)}</g>')
+    return (css.group(1) if css else ""), g
+
+
 FONT_SANS = ('system-ui,-apple-system,"Segoe UI",Roboto,'
              '"Helvetica Neue",Arial,sans-serif')
 FONT_MONO = ('ui-monospace,"SF Mono","JetBrains Mono","Fira Code",'
              'Menlo,Consolas,"Liberation Mono",monospace')
 
 THEMES = {
+    # Tokyo Night sobre el lienzo claro/oscuro de GitHub, para que el perfil
+    # y serallap.com sean la misma identidad. El acento claro sale de la
+    # propia paleta ACCENTS del portfolio (#8b5cf6); #bb9af7 no aguanta
+    # sobre blanco.
     "light": {
-        "fg": "#1f2328", "muted": "#59636e", "faint": "#818b98",
-        "line": "#d1d9e0", "hair": "#e6eaef", "accent": "#0d9488",
+        "fg": "#073642", "muted": "#586e75", "faint": "#839496",
+        "line": "#d4dad8", "hair": "#e7ebe9", "accent": "#8b5cf6",
     },
     "dark": {
-        "fg": "#e6edf3", "muted": "#9198a1", "faint": "#7d8590",
-        "line": "#30363d", "hair": "#21262d", "accent": "#2dd4bf",
+        "fg": "#c0caf5", "muted": "#7982a9", "faint": "#565f89",
+        "line": "#2f3549", "hair": "#21262d", "accent": "#bb9af7",
     },
 }
 
@@ -146,7 +177,7 @@ def build(theme: str) -> str:
     css = f"""
     text{{font-family:{FONT_SANS}}}
     .mono{{font-family:{FONT_MONO};font-size:{MONO_SIZE}px}}
-    .name{{font-size:40px;font-weight:640;letter-spacing:-.9px;fill:{c['fg']};
+    .name{{font-size:34px;font-weight:640;letter-spacing:-.9px;fill:{c['fg']};
       animation:rise .9s cubic-bezier(.2,.8,.2,1) both}}
     .prompt{{fill:{c['accent']};animation:rise .9s .18s cubic-bezier(.2,.8,.2,1) both}}
     .typed{{fill:{c['fg']}}}
@@ -154,6 +185,7 @@ def build(theme: str) -> str:
       animation:rise .9s .34s cubic-bezier(.2,.8,.2,1) both}}
     .handle{{font-size:14px;letter-spacing:.6px;fill:{c['muted']};text-anchor:end;
       animation:rise .9s .26s cubic-bezier(.2,.8,.2,1) both}}
+    .mark{{color:{c['fg']}}}
     .rule{{stroke:{c['line']};stroke-width:1;stroke-dasharray:{W};
       stroke-dashoffset:{W};animation:draw 1.5s .1s cubic-bezier(.2,.8,.2,1) forwards}}
     .lane{{stroke:{c['line']};stroke-width:1}}
@@ -178,14 +210,15 @@ def build(theme: str) -> str:
       .caret{{opacity:0}}
     }}
     """
-    css = " ".join(css.split())
+    mark_css, mark_el = mark_svg()
+    css = " ".join((css + mark_css).split())
 
     return f"""<?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H}" width="{W}" height="{H}" role="img" aria-label="{esc(NAME)} — {esc(PHRASES[0])}">
 <title>{esc(NAME)} — {esc(PHRASES[0])}</title>
 <style>{css}</style>
 <defs>{"".join(clips)}</defs>
-<text class="name" x="0" y="64">{esc(NAME)}</text>
+{mark_el}{f'<text class="name" x="{NAME_X}" y="62">{esc(NAME)}</text>' if SHOW_NAME else ''}
 <text class="mono handle" x="{W - 4}" y="64">{esc(HANDLE)}</text>
 {"".join(lane_svg)}
 <line class="rule" x1="0" y1="{RULE_Y}" x2="{W}" y2="{RULE_Y}"/>
