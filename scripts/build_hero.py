@@ -66,7 +66,12 @@ def mark_svg() -> tuple[str, str]:
     k = MARK_H / float(vb.group(2))
     g = (f'<g class="mark" transform="translate({MARK_X},{MARK_Y}) '
          f'scale({k:.4f})">{"".join(paths)}</g>')
-    return (css.group(1) if css else ""), g
+    inner = css.group(1) if css else ""
+    # el color propio del logo suelto sobra aqui: lo pone .mark
+    inner = re.sub(r"svg\{color:[^}]*\}", "", inner)
+    inner = re.sub(r"@media \(prefers-color-scheme:dark\)\{svg\{[^}]*\}\}", "",
+                   inner)
+    return inner, g
 
 
 FONT_SANS = ('system-ui,-apple-system,"Segoe UI",Roboto,'
