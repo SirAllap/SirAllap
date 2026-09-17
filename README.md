@@ -3,9 +3,7 @@
   <img alt="DPR — David Pallarés, building developer tools" src="https://raw.githubusercontent.com/SirAllap/SirAllap/main/assets/hero-light.svg" width="100%">
 </picture>
 
-Backend engineer at [Smith.ai](https://smith.ai), in Sevilla. Most of what I ship points
-at the same thing: AI coding agents are doing real work on real machines, and almost
-nobody can see what they are doing while they do it.
+Backend engineer at [Smith.ai](https://smith.ai), in Sevilla.
 
 ## Work
 
