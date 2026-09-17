@@ -27,18 +27,7 @@ The same readouts as native, theme-aware popups for Omarchy / Hyprland.
 
 Claude Code spend, live in the GNOME top bar.
 
-<details>
-<summary>Everything else</summary>
-<p>
-
-<a href="https://github.com/SirAllap/fulla"><b>fulla</b></a> · Kotlin — shared household expenses for two people. Compose, offline-first on Room.<br>
-<a href="https://github.com/SirAllap/pawcook"><b>pawcook</b></a> · TypeScript — home-cooked pet meals scored against AAFCO / NRC / FEDIAF targets.<br>
-<a href="https://github.com/SirAllap/Fit-Launcher"><b>Fit-Launcher</b></a> · TypeScript — repack launcher rebuilt on Tauri + SolidJS.<br>
-<a href="https://github.com/SirAllap/travl_dashboard"><b>travl_dashboard</b></a> · TypeScript — hotel management platform.<br>
-<b>Config</b> — <a href="https://github.com/SirAllap/dotfiles">dotfiles</a>, <a href="https://github.com/SirAllap/nvim-sirallap">nvim-sirallap</a>, <a href="https://github.com/SirAllap/custom_miryoku_qwerty_56keys_vial">a 56-key Miryoku layout</a>.
-
-</p>
-</details>
+Everything else I build is at [serallap.com](https://serallap.com).
 
 ---
 

@@ -14,20 +14,7 @@ Every AI coding agent on your machine, on one screen — live cost, tokens and t
 across Claude Code, Codex, Gemini CLI and OpenCode, and a hold on anything dangerous until
 you say go. Nothing leaves the machine.
 
-<details>
-<summary>Everything else</summary>
-<p>
-
-<a href="https://github.com/SirAllap/waybar-scripts-collection"><b>waybar-scripts-collection</b></a> — CPU, GPU, memory, storage, network and weather modules for Waybar.<br>
-<a href="https://github.com/SirAllap/quickshell-popups"><b>quickshell-popups</b></a> — the same readouts as native, theme-aware popups for Omarchy / Hyprland.<br>
-<a href="https://github.com/SirAllap/ccusage-gnome"><b>ccusage-gnome</b></a> — Claude Code spend, live in the GNOME top bar.<br>
-<a href="https://github.com/SirAllap/fulla"><b>fulla</b></a> — shared household expenses for two. Android + Compose, offline-first on Room.<br>
-<a href="https://github.com/SirAllap/pawcook"><b>pawcook</b></a> — home-cooked pet meals scored against AAFCO / NRC / FEDIAF targets.<br>
-<a href="https://github.com/SirAllap/Fit-Launcher"><b>Fit-Launcher</b></a> — repack launcher rebuilt on Tauri + SolidJS.<br>
-<b>Config</b> — <a href="https://github.com/SirAllap/dotfiles">dotfiles</a>, <a href="https://github.com/SirAllap/nvim-sirallap">nvim-sirallap</a>, <a href="https://github.com/SirAllap/custom_miryoku_qwerty_56keys_vial">a 56-key Miryoku layout</a>.
-
-</p>
-</details>
+Everything else I build is at **[serallap.com](https://serallap.com)**.
 
 ## Stack
 
@@ -47,4 +34,4 @@ you say go. Nothing leaves the machine.
   </picture>
 </div>
 
-[serallap.com](https://serallap.com) · [LinkedIn](https://www.linkedin.com/in/davidpallaresrobaina/) · [david.pr.developer@gmail.com](mailto:david.pr.developer@gmail.com)
+[LinkedIn](https://www.linkedin.com/in/davidpallaresrobaina/) · [david.pr.developer@gmail.com](mailto:david.pr.developer@gmail.com)

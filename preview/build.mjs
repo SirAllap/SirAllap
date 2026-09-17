@@ -80,8 +80,8 @@ const VARIANTS = [
     notes: [
       ['Tu logo, vectorizado y animado',
        'Tu <code>dpr_dark.png</code> era un PNG de 318×266: borroso al escalar, sin versión clara, imposible de animar. Ahora son 9 formas independientes que entran desplazadas desde la izquierda y se recomponen en ~1,2 s. Los fragmentos sueltos siguen temblando cada 11 s.'],
-      ['Solo agentglass en la sección de trabajo',
-       'Lo demás bajó a <code>&lt;details&gt;</code>, plegado. Un perfil con un proyecto fuerte pesa más que uno con cuatro medianos.'],
+      ['Solo agentglass, y el resto al portfolio',
+       'Un proyecto fuerte pesa más que cuatro medianos. Lo demás ya no está ni plegado: una línea manda a serallap.com, que es donde está contado en condiciones y con capturas.'],
       ['Misma identidad que serallap.com',
        'El hero va en Tokyo Night —tu paleta real— en vez del teal que me inventé: <code>#bb9af7</code> en oscuro y <code>#8b5cf6</code> (de tu propia lista ACCENTS) en claro, que <code>#bb9af7</code> no aguanta sobre blanco.'],
       ['Hero propio, no un GIF de catálogo',
