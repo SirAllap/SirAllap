@@ -69,7 +69,7 @@ const header = {
     <text x="872" y="202" text-anchor="end" ${MONO} font-size="13" fill="${c.faint}">@${USER}</text>`, 'David Pallarés'),
   m: (t, c) => svg(400, 318, `${mark(t, 24, 8, 352)}
     <text x="200" y="262" text-anchor="middle" ${MONO} font-size="32" font-weight="700" fill="${c.fg}" letter-spacing="-.5">David Pallarés</text>
-    <text x="200" y="294" text-anchor="middle" ${MONO} font-size="14" fill="${c.dim}">backend engineer</text>
+    <text x="200" y="294" text-anchor="middle" ${MONO} font-size="14" fill="${c.dim}">backend engineer</text>`, 'David Pallarés'),
 };
 
 // ---------- work ----------

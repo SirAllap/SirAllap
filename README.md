@@ -3,7 +3,7 @@
   <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="assets/header-m-dark.svg">
   <source media="(max-width: 600px)" srcset="assets/header-m-light.svg">
   <source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.svg">
-  <img alt="DPR — David Pallarés, backend engineer in Sevilla" src="assets/header-light.svg" width="100%">
+  <img alt="DPR — David Pallarés, backend engineer" src="assets/header-light.svg" width="100%">
 </picture>
 
 ## Work
