@@ -175,14 +175,23 @@ function towers(c, weeks, ox, oy, s) {
     const w = 12 * s;
     const q = 6 * s;
     const f = c.city[v];
-    o += `<g transform="translate(${bx.toFixed(1)},${by.toFixed(1)})"><path d="M0 ${(-h).toFixed(1)} l${w} ${-q} l${w} ${q} l${-w} ${q}z" fill="${f}"/><path d="M0 ${(-h).toFixed(1)} l${w} ${q} v${h.toFixed(1)} l${-w} ${-q}z" fill="${f}" opacity=".8"/><path d="M${2 * w} ${(-h).toFixed(1)} l${-w} ${q} v${h.toFixed(1)} l${w} ${-q}z" fill="${f}" opacity=".55"/></g>`;
+    // al cargar, la ciudad crece semana a semana desde el suelo y se queda quieta
+    // (sin transform de partida: si un visor no anima SMIL, se ve la ciudad entera)
+    const wait = 0.25 + col * 0.035;
+    const dur = wait + 1.1;
+    const grow = `<animateTransform attributeName="transform" type="scale" values="1 .04;1 .04;1 1" keyTimes="0;${(wait / dur).toFixed(3)};1" dur="${dur.toFixed(2)}s" fill="freeze" calcMode="spline" keySplines="0 0 1 1;.2 .8 .3 1"/>`;
+    // después, para siempre: una ola de luz lenta recorre el año de izquierda a derecha
+    // (cada 9 s) y las torres más altas respiran un poco
+    const glint = `<path d="M0 ${(-h).toFixed(1)} l${w} ${-q} l${w} ${q} l${-w} ${q}z" fill="${c.fg}" opacity="0"><animate attributeName="opacity" values="0;${(0.24 + v * 0.07).toFixed(2)};0;0" keyTimes="0;.07;.2;1" dur="9s" begin="${(3.4 + col * 0.07 + row * 0.02).toFixed(2)}s" repeatCount="indefinite"/></path>`;
+    const breathe = v >= 3 ? `<animateTransform attributeName="transform" type="scale" additive="sum" values="1 1;1 ${(1 + 0.03 * v).toFixed(2)};1 1" dur="${(5 + ((col * 7 + row * 3) % 5)).toFixed(0)}s" begin="3.4s" repeatCount="indefinite" calcMode="spline" keySplines=".45 0 .55 1;.45 0 .55 1"/>` : '';
+    o += `<g transform="translate(${bx.toFixed(1)},${by.toFixed(1)})"><g>${grow}${breathe}<path d="M0 ${(-h).toFixed(1)} l${w} ${-q} l${w} ${q} l${-w} ${q}z" fill="${f}"/><path d="M0 ${(-h).toFixed(1)} l${w} ${q} v${h.toFixed(1)} l${-w} ${-q}z" fill="${f}" opacity=".8"/><path d="M${2 * w} ${(-h).toFixed(1)} l${-w} ${q} v${h.toFixed(1)} l${w} ${-q}z" fill="${f}" opacity=".55"/>${glint}</g></g>`;
   }));
   return o;
 }
 const stat = (c, x, y, n, l, anc = 'end', s = 1) => `<text x="${x}" y="${y}" text-anchor="${anc}" ${MONO} font-size="${30 * s}" font-weight="700" fill="${c.fg}">${n}</text><text x="${x}" y="${y + 20 * s}" text-anchor="${anc}" ${MONO} font-size="${11 * s}" fill="${c.faint}" letter-spacing="1.5">${l}</text>`;
 const activity = {
-  d: (t, c, D) => `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 30 880 400" width="880" height="400" role="img" aria-label="${D.total} contributions in the last year">${towers(c, D.weeks, 90, 80, 1)}${stat(c, 860, 74, D.total.toLocaleString('en-US'), 'CONTRIBUTIONS · LAST YEAR')}${stat(c, 860, 140, `${D.longest} days`, 'LONGEST STREAK')}</svg>`,
-  m: (t, c, D) => svg(400, 320, `${stat(c, 0, 34, D.total.toLocaleString('en-US'), 'CONTRIBUTIONS', 'start', 0.9)}${stat(c, 210, 34, `${D.longest} days`, 'LONGEST STREAK', 'start', 0.9)}${towers(c, D.weeks, 45, 118, 0.52)}`, `${D.total} contributions in the last year`),
+  d: (t, c, D) => `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 30 880 426" width="880" height="426" role="img" aria-label="${D.total} contributions in the last year">${towers(c, D.weeks, 90, 80, 1)}${stat(c, 860, 74, D.total.toLocaleString('en-US'), 'CONTRIBUTIONS · LAST YEAR')}${stat(c, 860, 140, `${D.longest} days`, 'LONGEST STREAK')}</svg>`,
+  m: (t, c, D) => svg(400, 332, `${stat(c, 0, 34, D.total.toLocaleString('en-US'), 'CONTRIBUTIONS', 'start', 0.9)}${stat(c, 210, 34, `${D.longest} days`, 'LONGEST STREAK', 'start', 0.9)}${towers(c, D.weeks, 45, 118, 0.52)}`, `${D.total} contributions in the last year`),
 };
 
 // ---------- contacto: una imagen por botón, así se recolocan en el móvil ----------
