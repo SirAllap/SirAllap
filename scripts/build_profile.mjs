@@ -64,13 +64,12 @@ const mark = (t, x, y, w) => `<svg x="${x}" y="${y}" width="${w}" height="${(w *
 const header = {
   d: (t, c) => svg(880, 240, `${mark(t, 0, 20, 380)}
     <text x="408" y="112" ${MONO} font-size="44" font-weight="700" fill="${c.fg}" letter-spacing="-1">David Pallarés</text>
-    <text x="410" y="148" ${MONO} font-size="15" fill="${c.dim}">backend engineer · sevilla</text>
+    <text x="410" y="148" ${MONO} font-size="15" fill="${c.dim}">backend engineer</text>
     <line x1="410" x2="872" y1="176" y2="176" stroke="${c.line}"/>
     <text x="872" y="202" text-anchor="end" ${MONO} font-size="13" fill="${c.faint}">@${USER}</text>`, 'David Pallarés'),
-  m: (t, c) => svg(400, 340, `${mark(t, 24, 8, 352)}
+  m: (t, c) => svg(400, 318, `${mark(t, 24, 8, 352)}
     <text x="200" y="262" text-anchor="middle" ${MONO} font-size="32" font-weight="700" fill="${c.fg}" letter-spacing="-.5">David Pallarés</text>
     <text x="200" y="294" text-anchor="middle" ${MONO} font-size="14" fill="${c.dim}">backend engineer</text>
-    <text x="200" y="316" text-anchor="middle" ${MONO} font-size="14" fill="${c.dim}">sevilla</text>`, 'David Pallarés'),
 };
 
 // ---------- work ----------
@@ -210,7 +209,7 @@ ${mobile ? `  <source media="(max-width: 600px) and (prefers-color-scheme: dark)
   <img alt="${alt}" src="assets/${name}-light.svg" width="100%">
 </picture>`;
 const readme = () => `<!-- Generado por scripts/build_profile.mjs; no editar a mano. -->
-${picture('header', 'DPR — David Pallarés, backend engineer in Sevilla')}
+${picture('header', 'DPR — David Pallarés, backend engineer')}
 
 ## Work
 
