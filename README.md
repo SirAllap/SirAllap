@@ -1,35 +1,53 @@
+<!-- Generado por scripts/build_profile.mjs; no editar a mano. -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/SirAllap/SirAllap/main/assets/hero-dark.svg">
-  <img alt="DPR — David Pallarés, building developer tools" src="https://raw.githubusercontent.com/SirAllap/SirAllap/main/assets/hero-light.svg" width="100%">
+  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="assets/header-m-dark.svg">
+  <source media="(max-width: 600px)" srcset="assets/header-m-light.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.svg">
+  <img alt="DPR — David Pallarés, backend engineer in Sevilla" src="assets/header-light.svg" width="100%">
 </picture>
-
-Backend engineer at [Smith.ai](https://smith.ai), in Sevilla.
 
 ## Work
 
-**[agentglass](https://github.com/SirAllap/agentglass)** &nbsp;[![stars](https://img.shields.io/github/stars/SirAllap/agentglass?style=flat-square&label=%E2%98%85&color=bb9af7&labelColor=1a1b26&cacheSeconds=3600)](https://github.com/SirAllap/agentglass/stargazers) &nbsp;`Bun` `SQLite` `React` `Electron`<br>
-Every AI coding agent on your machine, on one screen — live cost, tokens and tool calls
-across Claude Code, Codex, Gemini CLI and OpenCode, and a hold on anything dangerous until
-you say go. Nothing leaves the machine.
+<a href="https://github.com/SirAllap/agentglass">
+<picture>
+  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="assets/agentglass-m-dark.svg">
+  <source media="(max-width: 600px)" srcset="assets/agentglass-m-light.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/agentglass-dark.svg">
+  <img alt="agentglass — every AI coding agent on your machine, on one screen" src="assets/agentglass-light.svg" width="100%">
+</picture>
+</a>
 
-Everything else I build is at **[serallap.com](https://serallap.com)**.
+<a href="https://serallap.com">
+<picture>
+  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="assets/portfolio-m-dark.svg">
+  <source media="(max-width: 600px)" srcset="assets/portfolio-m-light.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/portfolio-dark.svg">
+  <img alt="serallap.com — everything else I build" src="assets/portfolio-light.svg" width="100%">
+</picture>
+</a>
 
 ## Stack
 
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=python,django,postgres,docker,linux,aws,nginx,typescript,react,nextjs,nodejs,neovim&perline=12&theme=dark">
-    <img alt="Stack" src="https://skillicons.dev/icons?i=python,django,postgres,docker,linux,aws,nginx,typescript,react,nextjs,nodejs,neovim&perline=12&theme=light">
-  </picture>
-</div>
+<picture>
+  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="assets/stack-m-dark.svg">
+  <source media="(max-width: 600px)" srcset="assets/stack-m-light.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/stack-dark.svg">
+  <img alt="Python, Django, Postgres, Docker, AWS, Nginx, Bun, TypeScript, React, SQLite, Electron, Tauri, Linux, Hyprland, Quickshell, tmux, Neovim" src="assets/stack-light.svg" width="100%">
+</picture>
 
-<p align="center"><sub>Bun · SQLite · Electron · Tauri · Quickshell/QML · Hyprland · tmux</sub></p>
+## Activity
 
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/SirAllap/SirAllap/main/assets/snake-dark.svg">
-    <img alt="Contribution graph" src="https://raw.githubusercontent.com/SirAllap/SirAllap/main/assets/snake.svg">
-  </picture>
-</div>
+<picture>
+  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="assets/activity-m-dark.svg">
+  <source media="(max-width: 600px)" srcset="assets/activity-m-light.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/activity-dark.svg">
+  <img alt="A year of contributions as an isometric city" src="assets/activity-light.svg" width="100%">
+</picture>
 
-[LinkedIn](https://www.linkedin.com/in/davidpallaresrobaina/) · [david.pr.developer@gmail.com](mailto:david.pr.developer@gmail.com)
+## Say hi
+
+<p>
+<a href="https://serallap.com"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/link-site-dark.svg"><img alt="serallap.com" src="assets/link-site-light.svg" height="46"></picture></a>
+<a href="https://www.linkedin.com/in/davidpallaresrobaina/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/link-linkedin-dark.svg"><img alt="LinkedIn" src="assets/link-linkedin-light.svg" height="46"></picture></a>
+<a href="mailto:david.pr.developer@gmail.com"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/link-mail-dark.svg"><img alt="david.pr.developer@gmail.com" src="assets/link-mail-light.svg" height="46"></picture></a>
+</p>

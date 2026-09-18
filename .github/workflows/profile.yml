@@ -1,0 +1,34 @@
+name: Build profile
+
+# Cada noche: datos frescos (contribuciones, estrellas) y un logo nuevo con la
+# fecha como semilla.
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "15 0 * * *"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Build SVGs and README
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: node scripts/build_profile.mjs
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/ README.md
+          git commit -m "Rebuild profile" || echo "No changes to commit"
+          git push
